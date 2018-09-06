@@ -126,7 +126,7 @@ void rainbowCycle(int SpeedDelay) {
 
   //If the button is pressed, set maximum brightness of the LEDs
   if (buttonState == HIGH)
-    FastLED.setBrightness(150);
+    FastLED.setBrightness(BRIGHTNESS);
 
   //Otherwise, turn off the lights from LED
   else
