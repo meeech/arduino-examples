@@ -57,8 +57,6 @@ CRGB leds[NUM_LEDS];
 Ultrasonic ultrasonic(PIN_ULTRASONIC);
 long ultrasonic_range;
 
-CRGB leds[NUM_LEDS];
-
 //For rainbow pattern
 uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 
